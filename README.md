@@ -16,12 +16,9 @@
 
 ![SynthVerse teaser](Doc/teaser.png)
 
-We release **SynthVerse-Benchmark** for systematic evaluation under diverse domain shifts. See the Hugging Face dataset card for splits, metrics, and usage:
+We release **SynthVerse Benchmark and Dataset** for systematic evaluation under diverse domain shifts. See the Hugging Face dataset card for splits, metrics, and usage:
 
 - [InternRobotics/SynthVerse-Benchmark](https://huggingface.co/datasets/InternRobotics/SynthVerse-Benchmark)
-
-Training data:
-
 - [InternRobotics/SynthVerse](https://huggingface.co/datasets/InternRobotics/SynthVerse)
 
 
