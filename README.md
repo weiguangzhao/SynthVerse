@@ -1,12 +1,18 @@
-# SynthVerse: A Large-Scale Diverse Synthetic Dataset for Point Tracking
+# SynthVerse
+## SynthVerse: A Large-Scale Diverse Synthetic Dataset for Point Tracking
 
+[![Project](https://img.shields.io/badge/Project-Homepage-0366d6?logo=github)](https://weiguangzhao.github.io/SynthVerse/)
 [![Paper](https://img.shields.io/badge/Paper-arXiv-b31b1b?logo=arxiv)](https://arxiv.org/abs/2602.04441)
 [![Dataset downloads](https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fhuggingface.co%2Fapi%2Fdatasets%2FInternRobotics%2FSynthVerse&query=%24.downloads&label=Dataset&logo=huggingface&logoColor=FFD21E)](https://huggingface.co/datasets/InternRobotics/SynthVerse)
 [![Benchmark downloads](https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fhuggingface.co%2Fapi%2Fdatasets%2FInternRobotics%2FSynthVerse-Benchmark&query=%24.downloads&label=Benchmark&logo=huggingface&logoColor=FFD21E)](https://huggingface.co/datasets/InternRobotics/SynthVerse-Benchmark)
 
 
+### Roadmap
 
-## Benchmark
+- [ ] Code for data making
+- [ ] Code for dataloader
+
+## Benchmark and Dataset
 
 We release **SynthVerse-Benchmark** for systematic evaluation under diverse domain shifts. See the Hugging Face dataset card for splits, metrics, and usage:
 
@@ -17,7 +23,11 @@ Training data:
 - [InternRobotics/SynthVerse](https://huggingface.co/datasets/InternRobotics/SynthVerse)
 
 
+## Pipeline
 
+SynthVerse data generation pipeline:
+
+![SynthVerse pipeline](https://raw.githubusercontent.com/weiguangzhao/SynthVerse/main/assets/images/pipeline.png)
 
 ## BibTeX
 
