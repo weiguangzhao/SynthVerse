@@ -9,8 +9,6 @@
 
 ### Roadmap
 
-- [x] Release SynthVerse Benchmark
-- [x] Release SynthVerse Dataset
 - [ ] Code for data making
 - [ ] Code for dataloader
 
@@ -42,10 +40,6 @@ If you find SynthVerse useful, please cite:
   year={2026}
 }
 ```
-
-## Acknowledgement
-
-This project would not be possible without many excellent open-source codebases. Notable examples include [Kubric](https://github.com/google-research/kubric), [PointOdyssey](https://github.com/y-zheng18/point_odyssey), [TAPNET](https://github.com/google-deepmind/tapnet), and [TAPIP3D](https://github.com/zbw001/TAPIP3D), among others.
 
 ## Contact
 
