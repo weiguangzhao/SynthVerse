@@ -23,6 +23,37 @@ We release **SynthVerse Benchmark and Dataset** for systematic evaluation under 
 - [InternRobotics/SynthVerse-Benchmark](https://huggingface.co/datasets/InternRobotics/SynthVerse-Benchmark)
 - [InternRobotics/SynthVerse](https://huggingface.co/datasets/InternRobotics/SynthVerse)
 
+## Data format
+```
+  ├── seq_0001
+  │   ├── seq_0001.npy                  # np.ndarray(object) -> dict
+  │   │   ├── coords:       float32 [T1, N, 2]
+  │   │   ├── depth_range:  float32 [2]
+  │   │   ├── intrinsics:   float32 [T1, 3, 3]
+  │   │   ├── matrix_world: float32 [T1, 4, 4]
+  │   │   ├── occluded:     uint8/bool [T1, N]
+  │   │   └── traj_3d:      float32 [T1, N, 3]
+  │   └── frames
+  │       ├── 0000.png                        # RGB, uint8, [H, W, 3]
+  │       ├── 0000_depth.png                  # I;16, uint16, [H, W]
+  │       ├── 0001.png
+  │       ├── 0001_depth.png
+  │       └── ...
+  └── seq_0002
+      ├── seq_0002.npy                  # np.ndarray(object) -> dict
+      │   ├── coords:       float32 [T2, N, 2]
+      │   ├── depth_range:  float32 [2]
+      │   ├── intrinsics:   float32 [T2, 3, 3]
+      │   ├── matrix_world: float32 [T2, 4, 4]
+      │   ├── occluded:     uint8/bool [T2, N]
+      │   └── traj_3d:      float32 [T2, N, 3]
+      └── frames
+          ├── 0000.png
+          ├── 0000_depth.png
+          ├── 0001.png
+          ├── 0001_depth.png
+          └── ...
+```
 
 ## Pipeline
 
