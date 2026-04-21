@@ -1219,6 +1219,13 @@ footer p {
     font-style: italic;
 }
 
+.affiliations .venue-acceptance {
+    font-size: 0.9rem;
+    color: #e65100;
+    margin-top: 0.5rem;
+    font-weight: 600;
+}
+
 /* ============================================
    Interactive Demo Section (New Styles)
    ============================================ */
