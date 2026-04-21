@@ -1,5 +1,5 @@
 # SynthVerse
-## SynthVerse: A Large-Scale Diverse Synthetic Dataset for Point Tracking
+## [SIGGRAPH 2026] SynthVerse: A Large-Scale Diverse Synthetic Dataset for Point Tracking
 
 [![Project](https://img.shields.io/badge/Project-Homepage-0366d6?logo=github)](https://weiguangzhao.github.io/SynthVerse/)
 [![Paper](https://img.shields.io/badge/Paper-arXiv-b31b1b?logo=arxiv)](https://arxiv.org/abs/2602.04441)
