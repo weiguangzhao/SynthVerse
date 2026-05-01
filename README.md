@@ -12,7 +12,7 @@
 - [x] Release SynthVerse Benchmark
 - [x] Release SynthVerse Dataset
 - [ ] Code for Data Making
-- [ ] Code for Dataloader
+- [x] Code for Dataloader
 
 ## Benchmark and Dataset
 
