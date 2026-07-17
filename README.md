@@ -9,10 +9,15 @@
 
 ### Roadmap
 
+> **Note:**  
+> For details about the depth scale cropping strategy and multi-view data configuration, please refer to [Issue #3](https://github.com/weiguangzhao/SynthVerse/issues/3).
+
 - [x] Release SynthVerse Benchmark
 - [x] Release SynthVerse Dataset
 - [ ] Code for Data Making
 - [x] Code for Dataloader
+
+
 
 ## Benchmark and Dataset
 
@@ -54,6 +59,7 @@ We release **SynthVerse Benchmark and Dataset** for systematic evaluation under 
           ├── 0001_depth.png
           └── ...
 ```
+
 
 ## Pipeline
 
